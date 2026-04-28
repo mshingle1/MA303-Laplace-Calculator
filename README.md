@@ -1,4 +1,4 @@
-# ℒ Laplace Transform Calculator
+# Graphing Tool for ℒaplace Transforms
 
 A symbolic Laplace and inverse Laplace transform calculator for Python, powered by **SymPy** and **Matplotlib**. Computes exact symbolic results and automatically generates three-panel plots for every transform.
 
