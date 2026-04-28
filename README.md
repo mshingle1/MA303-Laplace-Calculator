@@ -2,7 +2,6 @@
 
 A symbolic Laplace and inverse Laplace transform calculator for Python, powered by **SymPy** and **Matplotlib**. Computes exact symbolic results and automatically generates three-panel plots for every transform.
 
----
 
 ## Features
 
@@ -38,7 +37,6 @@ A symbolic Laplace and inverse Laplace transform calculator for Python, powered 
 | `pi`, `E`, `oo` | π, Euler's number, ∞ |
 
 ### Functions
-
 ```
 exp(x)    sin(x)    cos(x)    sinh(x)    cosh(x)
 tan(x)    atan(x)   ln(x)     sqrt(x)    Abs(x)
@@ -56,7 +54,6 @@ t**n  (any rational n)
 | **\|F(jω)\| — Frequency Response** | Magnitude (solid) and phase in degrees (dashed) on twin axes |
 | **\|F(σ+jω)\| — s-Plane Surface** | 3D surface of \|F(s)\| over the complex plane |
 
-The region of convergence is shown as a caption below the figure when available.
 
 ### Inverse Transform
 
@@ -66,7 +63,6 @@ The region of convergence is shown as a caption below the figure when available.
 | **Pole-Zero Map** | Poles marked ×, zeros marked ○, stable left-half-plane shaded |
 | **Partial Fractions** | Each PFD term shown |
 
----
 
 ## Examples
 
@@ -83,8 +79,6 @@ The region of convergence is shown as a caption below the figure when available.
 ℒ-calc » Li  s/(s**2 + 9)
   Result f(t):  cos(3t)
 ```
-
----
 
 ## Limitations
 
